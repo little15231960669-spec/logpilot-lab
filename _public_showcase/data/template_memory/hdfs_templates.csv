@@ -1,9 +1,0 @@
-template,description
-Receiving block <*> src: <*> dest: <*>,DataNode receives a block from source to destination.
-PacketResponder <*> for block <*> terminating,PacketResponder terminates for a specific block.
-BLOCK* NameSystem.allocateBlock: <*> <*>,NameSystem allocates a block for a file path.
-BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to <*> size <*>,NameSystem updates block map after storing a block.
-Served block <*> to <*>,DataNode serves a block to a client.
-Verification succeeded for <*>,Block verification succeeds.
-Deleting block <*> file <*>,DataNode deletes a block file.
-Received block <*> of size <*> from <*>,DataNode receives a block with size and source.

@@ -1,9 +1,0 @@
-template,description
-<*> <*> <*> <*> <*> RAS KERNEL INFO instruction cache parity error corrected,BGL kernel reports an instruction cache parity error.
-<*> <*> <*> <*> <*> RAS KERNEL INFO data cache parity error corrected,BGL kernel reports a data cache parity error.
-<*> <*> <*> <*> <*> RAS KERNEL INFO CE sym <*> at <*> mask <*>,BGL kernel reports a correctable memory error.
-APPREAD <*> <*> <*> RAS APP FATAL ciod: failed to read message prefix on control stream,BGL application read failure in control stream.
-APPREAD <*> <*> <*> RAS APP FATAL ciod: Error reading message prefix after <*> tries,BGL application read failure after retries.
-<*> <*> <*> <*> <*> RAS KERNEL FATAL data TLB error interrupt,BGL kernel reports a fatal TLB error.
-<*> <*> <*> <*> <*> RAS KERNEL INFO generating core,<*> generating a core dump.
-<*> <*> <*> <*> <*> RAS KERNEL WARNING <*> exception,BGL kernel warning exception.
