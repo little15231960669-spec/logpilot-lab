@@ -1,0 +1,6 @@
+case_id,log,user_query,candidate_template,expected_action,expected_template,expected_accept,notes
+case_001,"Receiving block blk_38865049064139660 src: /10.250.19.102:54106 dest: /10.250.19.102:50010","请复核这条日志的解析结果，检索相似历史模板，并给出最终建议。","Receiving block <*> src: <*> dest: <*>","full_review","Receiving block <*> src: <*> dest: <*>","true","happy path receiving block"
+case_002,"Receiving block blk_38865049064139660 src: /10.250.19.102:54106 dest: /10.250.19.102:50010","请复核这条日志的解析结果，检索相似历史模板，并给出最终建议。","Received block <*> of size <*> from <*>","full_review","Receiving block <*> src: <*> dest: <*>","false","receiving block with wrong candidate template"
+case_003,"Served block blk_777 to /10.250.19.103:50010","请复核这条日志的解析结果，检索相似历史模板，并给出最终建议。","Served block <*> to <*>","full_review","Served block <*> to <*>","true","served block happy path"
+case_004,"Deleting block blk_888 file /data/current/subdir0/blk_888","请复核这条日志的解析结果，检索相似历史模板，并给出最终建议。","Deleting block <*> file <*>","full_review","Deleting block <*> file <*>","true","deleting block happy path"
+case_005,"PacketResponder 1 for block blk_999 terminating","请复核这条日志的解析结果，检索相似历史模板，并给出最终建议。","PacketResponder <*> for block <*> terminating","full_review","PacketResponder <*> for block <*> terminating","true","packet responder terminating happy path"
