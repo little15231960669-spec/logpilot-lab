@@ -439,8 +439,8 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-render_section_title("任务目标")
-task_label = st.selectbox("任务目标", list(TASK_LABEL_TO_KEY.keys()), index=1)
+render_section_title("Select an AI Skill / task goal")
+task_label = st.selectbox("Select an AI Skill / task goal", list(TASK_LABEL_TO_KEY.keys()), index=1)
 task_key = TASK_LABEL_TO_KEY[task_label]
 requires_memory = task_requires_template_memory(task_label)
 user_query = st.text_area(
